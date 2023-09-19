@@ -3,6 +3,8 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json"
-    }
-
+    },
+ "rules": {
+    "@typescript-eslint.io/rules/consistent-type-definitions": "off"
+ }
 }
